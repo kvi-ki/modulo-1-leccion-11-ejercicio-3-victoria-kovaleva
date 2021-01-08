@@ -1,0 +1,34 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 8vh 8vh 8vh 8vh 8vh 8vh 8vh 8vh 8vh 8vh 8vh 8vh;
+    grid-auto-rows: 20vh 60vh 20vh;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    grid-column: span 12;
+    grid-row: span 1;
+    background: pink;
+}
+
+.menu {
+    grid-column: span 4;
+    grid-row: span 1;
+    background: purple;
+}
+
+.content {
+    grid-column: span 8;
+    grid-row: span 1;
+    background: rgb(230, 23, 74);
+}
+
+.footer {
+    grid-column: span 12;
+    grid-row: span 1;
+    background: rgb(115, 179, 240);
+}
